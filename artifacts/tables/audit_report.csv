@@ -1,0 +1,29 @@
+file,check,status,detail,rerun_hint
+C:\Users\anand\Desktop\DDP\results\df_features.pkl,exists+loadable,PASS,,
+C:\Users\anand\Desktop\DDP\results\df_features.pkl,expected_columns,FAIL,missing columns: ['regime_label'],00_setup_data_features.py + 01a_vmd_features.py
+C:\Users\anand\Desktop\DDP\results\feat_cols.pkl,exists+loadable,PASS,,
+C:\Users\anand\Desktop\DDP\results\feat_cols.pkl,vmd_in_FEAT[1d],PASS,63 features,
+C:\Users\anand\Desktop\DDP\results\feat_cols.pkl,vmd_in_FEAT[7d],PASS,63 features,
+C:\Users\anand\Desktop\DDP\results\feat_cols.pkl,vmd_in_FEAT[90d],PASS,83 features,
+C:\Users\anand\Desktop\DDP\results\feat_cols.pkl,vmd_in_FEAT[180d],PASS,94 features,
+C:\Users\anand\Desktop\DDP\results\text_features_daily.csv,expected_columns,PASS,,
+C:\Users\anand\Desktop\DDP\results\baseline_metrics.csv,exists+rows,PASS,15 rows,
+C:\Users\anand\Desktop\DDP\results\baselines_results.pkl,exists+loadable,PASS,,
+C:\Users\anand\Desktop\DDP\results\predictions_VMD_1d.csv,exists+rows,PASS,942 rows,
+C:\Users\anand\Desktop\DDP\results\eval_VMD_1d.pkl,required_keys,FAIL,"missing: ['alpha_shrink_1d', 'conf_lo_1d', 'conf_hi_1d', 'use_sigma_1d']",driver for VMD 1d
+C:\Users\anand\Desktop\DDP\results\predictions_VMD_7d.csv,exists+rows,PASS,941 rows,
+C:\Users\anand\Desktop\DDP\results\eval_VMD_7d.pkl,required_keys,FAIL,"missing: ['alpha_shrink_7d', 'conf_lo_7d', 'conf_hi_7d', 'use_sigma_7d']",driver for VMD 7d
+C:\Users\anand\Desktop\DDP\results\predictions_VMD_90d.csv,exists+rows,PASS,919 rows,
+C:\Users\anand\Desktop\DDP\results\predictions_VMD_90d.csv,pred_in_USD_range,WARN,"pred range (5.037842182705774, 2993818.787605712) — possible scale/units issue",
+C:\Users\anand\Desktop\DDP\results\eval_VMD_90d.pkl,required_keys,FAIL,"missing: ['alpha_shrink_90d', 'conf_lo_90d', 'conf_hi_90d', 'use_sigma_90d']",driver for VMD 90d
+C:\Users\anand\Desktop\DDP\results\predictions_VMD_180d.csv,exists+rows,PASS,910 rows,
+C:\Users\anand\Desktop\DDP\results\predictions_VMD_180d.csv,pred_in_USD_range,WARN,"pred range (2.024318141898797e-46, inf) — possible scale/units issue",
+C:\Users\anand\Desktop\DDP\results\eval_VMD_180d.pkl,exists,FAIL,missing file,driver for VMD 180d
+C:\Users\anand\Desktop\DDP\results\risk_evt_1d.pkl,exists,FAIL,missing file,07_risk_evt.py for 1d
+C:\Users\anand\Desktop\DDP\results\risk_evt_7d.pkl,exists,FAIL,missing file,07_risk_evt.py for 7d
+C:\Users\anand\Desktop\DDP\results\risk_evt_90d.pkl,exists,FAIL,missing file,07_risk_evt.py for 90d
+C:\Users\anand\Desktop\DDP\results\risk_evt_180d.pkl,exists,FAIL,missing file,07_risk_evt.py for 180d
+C:\Users\anand\Desktop\DDP\results\probabilistic_metrics.csv,exists,FAIL,missing file,13_probabilistic_forecast.py
+C:\Users\anand\Desktop\DDP\results\comparator_table.csv,exists+rows,PASS,7 rows,
+C:\Users\anand\Desktop\DDP\results\dm_test_results.csv,exists+rows,PASS,1 rows,
+C:\Users\anand\Desktop\DDP\results\agentic_rag_signal.csv,exists,WARN,missing (file 12 may have been skipped),

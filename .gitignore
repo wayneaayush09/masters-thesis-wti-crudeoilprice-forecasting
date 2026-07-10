@@ -23,6 +23,11 @@ figures/
 *.pth
 *.ckpt
 
+# Curated, publication-ready figures are intentionally versioned.
+!artifacts/
+!artifacts/figures/
+!artifacts/figures/*.png
+
 # Large/local data files. See DATA.md for how to supply them.
 F_Disagg06_16.txt
 f_year.txt
