@@ -1,0 +1,35 @@
+# Python environments and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local settings, credentials, and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Generated experiment artefacts and caches
+outputs/
+results/
+cache/
+figures/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Large/local data files. See DATA.md for how to supply them.
+F_Disagg06_16.txt
+f_year.txt
+data/raw/
+data/processed/
+
+# Jupyter and operating-system noise
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

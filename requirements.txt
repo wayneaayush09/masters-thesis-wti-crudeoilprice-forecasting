@@ -1,0 +1,27 @@
+# Core analysis and forecasting
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+pmdarima
+arch
+lightgbm
+hmmlearn
+
+# Data acquisition and technical indicators
+requests
+yfinance
+ta
+cot_reports
+
+# Deep learning and optimisation
+torch
+transformers
+sentence-transformers
+faiss-cpu
+optuna
+vmdpy
+
+# Visualisation
+plotly
